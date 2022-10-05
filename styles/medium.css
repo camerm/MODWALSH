@@ -7,15 +7,11 @@
     
     
     header{
-        grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+        grid-template-columns: 0.5fr 1fr 2fr;
         grid-template-rows: auto;
     }
     .chamber{
         grid-template-columns: 2/3;
-        grid-row: 1/2;
-    }
-    .social{
-        grid-template-columns: 3/4;
         grid-row: 1/2;
     }
     
@@ -43,17 +39,10 @@
     }
     
     footer{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    .chambername{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .chambername img{
-        align-self: center;
-        justify-self: center;
-    }
+
     .contact{
         display: block;
     }

@@ -1,19 +1,21 @@
+header, main, footer {
+    max-width: 1000px;
+    border-radius: 0.5em;
+}
 
 .logo-picture{
+    padding: 12px;
     grid-column: 1/2;
     grid-row: 1/2;
+    
 }
 
 header{
-    grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr 2fr;
     grid-template-rows: auto;
 }
 .chamber{
     grid-template-columns: 2/3;
-    grid-row: 1/2;
-}
-.social{
-    grid-template-columns: 3/4;
     grid-row: 1/2;
 }
 
@@ -47,14 +49,14 @@ header{
 }
 header{
     display: grid;
-    background-color: rgba(1, 13, 122, 0.938);
+    background-color: rgba(18, 130, 74, 0.844);
 }
 .social{
     justify-self: center;
     align-self: center;
 }
 header h1, h2, h3, p{
-    color:aqua;
+    color:rgb(16, 72, 43);
 }
 nav{
     justify-self: center;
@@ -103,17 +105,12 @@ main h2, h3, h1, p{
 
 footer{
     display: grid;
-    background-color: rgba(1, 13, 122, 0.938);
+    background-color: rgba(18, 130, 74, 0.844);
 }
 footer p, h1, h2, h3{
-    color:aqua;
+    color:rgb(21, 71, 50);
 }
 
-.chambername{
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-}
 .contact{
     align-self: center;
     justify-self: center;
