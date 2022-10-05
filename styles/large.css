@@ -3,8 +3,9 @@
     .logo-picture{
         grid-column: 1/2;
         grid-row: 1/2;
+
     }
-    
+
     header{
         grid-template-columns: 0.5fr 1fr 2fr;
         grid-template-rows: auto;
@@ -20,7 +21,7 @@
         content: "🍔 ";
     }
     nav ul a{
-        color: rgb(19, 99, 81);
+        color: white;
         margin: 12px;
     }
     
@@ -39,12 +40,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr fr;
-        grid-gap:0.25rem;
+        grid-gap:0.35rem;
         border-radius: 0.5rem;
         background-color: rgb(255, 255, 255);
     }
+
+
     main div{
-        margin:0.5rem;
+        margin:1.5rem;
         padding: 0.5rem;
         background-color: rgb(229, 240, 243);
     }
