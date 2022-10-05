@@ -1,5 +1,5 @@
-header, main, footer {
-    max-width: 1000px;
+header, footer {
+    max-width: 900px;
     border-radius: 0.5em;
     align-content: center;
 }
@@ -9,12 +9,16 @@ main {
 }
 .logo-picture img{
     border-radius: 0.5rem;
+    margin: 1px;
+    padding: 1px;
+    max-width: 60%;
 }
 .logo-picture{
-    padding: 12px;
+    padding: 4px;
     grid-column: 1/2;
     grid-row: 1/2;
-    
+    align-self: center;
+    justify-self: center;   
 }
 
 header{
@@ -24,39 +28,15 @@ header{
 .chamber{
     grid-template-columns: 2/3;
     grid-row: 1/2;
-}
-
-.date{
-    grid-column: 1/5;
-    grid-row: 2/3;
-}    
-
-.logo-picture{
     align-self: center;
     justify-self: center;
 }
 
-
-.spotligth img{
-    max-width: 50%;
-}
-.spotligth{
-    text-align: center;
-}
-.join{
-    text-align: center;
-}
-.news{
-    text-align: center;
-}
-.event{
-    text-align: center;
-}
 header{
     display: grid;
     background-color: rgba(18, 130, 74, 0.844);
 }
-header h1 h2 h3 p{
+header h1 h2 h3{
     color: white;
 }
 
@@ -75,15 +55,10 @@ nav{
 }
 .navigation a:hover {
 	color: white;
-	background-color: rgb(10, 7, 53);
+	background-color: rgb(55, 68, 56);
 }
 
-.chamber{
-    align-self: center;
-    justify-self: center;
-}
-
-main h2, h3, h1, p {
+main h2, h3, h1, p{
     color: black;
 }
 
@@ -99,14 +74,13 @@ main h2, h3, h1, p {
     box-sizing: border-box;
     background-color: rgb(236, 242, 243);
 }
-.Card-header {
+.Card-header{
     margin: 0px;
 }
 .Card-action_container h1, h2, h3, p{
     margin: 0px;
     padding: 0px;
     color: black;
-    text-size-adjust:   ;
 
 }
 footer{
