@@ -1,6 +1,11 @@
 header, main, footer {
     max-width: 1000px;
     border-radius: 0.5em;
+    align-content: center;
+}
+main {
+    max-width: 700px;
+    align-self: center;
 }
 .logo-picture img{
     border-radius: 0.5rem;
@@ -31,9 +36,7 @@ header{
     justify-self: center;
 }
 
-.hero img{
-    max-width: 80%;
-}
+
 .spotligth img{
     max-width: 50%;
 }
@@ -53,10 +56,10 @@ header{
     display: grid;
     background-color: rgba(18, 130, 74, 0.844);
 }
-
-header h1, h2, h3, p{
-    color:white;
+header h1 h2 h3 p{
+    color: white;
 }
+
 nav{
     justify-self: center;
     align-self: center;
@@ -74,41 +77,43 @@ nav{
 	color: white;
 	background-color: rgb(10, 7, 53);
 }
-.date{
-    text-align: center;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    color: azure;
-    background-color: darkgray;
-    padding: 0.6%;
-}
+
 .chamber{
     align-self: center;
     justify-self: center;
 }
 
-main{
-    display: grid;
-    background-color: rgb(255, 255, 255);
-}
-
-main div{
-    margin:0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background-color: rgb(236, 242, 243);
-}
 main h2, h3, h1, p {
     color: black;
 }
 
+.Cards{
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    vertical-align: top;
+    margin: 20px 0 0 30px;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(236, 242, 243);
+}
+.Card-header {
+    margin: 0px;
+}
+.Card-action_container h1, h2, h3, p{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-size-adjust:   ;
+
+}
 footer{
     display: grid;
     background-color: rgba(18, 130, 74, 0.844);
 }
-footer p, h1, h2, h3{
+footer p, h1, h2, h3 a{
     color:white;
 }
 
