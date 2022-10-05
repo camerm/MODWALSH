@@ -30,18 +30,37 @@
         </nav>
     </header>
     <main>
-        <div class="layout">
-            <div class="Cards" id="Card_Convert_to_excel">
-                <div class="Card-header" style="background-image: url(https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg);">
-                </div> 
-                <div class="card-action_container">
-                    <a href="to_excel.html">
-                        <h3>Convertir a Excel </h3>
-                        <p>Convertir a Excel </p>
-                    </a>
-                    🍔
-                </div>
-            </div>  
+        <div class="introduction">
+            <h2>Aplication form: Welcome!</h2>
+            <hr>
+            <h3>Field with '*' are required</h3>
+        </div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Ingreso de archivos</legend>
+               <label class="top"> PM10* <input type="text" name="fname" required> </label>
+               <label class="top"> PM2.5* <input type="text" name="lname" required> </label>
+               <label class="top"> CO* <input type="email" name="email" placeholder="example@gmail.com" required> </label>
+               <label class="top"> NO2* <input type="tel" name="phone" placeholder="1234567890" required> </label>
+               <label class="top"> SO2* <input type="text" name="fname" required> </label>
+               <input type="submit" value="Join the Chamber" class="submitBtn">
+            </fieldset>
+            <fieldset>
+                <legend>Ingreso de concentracion de fondo</legend>
+                <label class="top"> Business Position <input type="text" name="business-position" id="businessPosition" pattern="[a-zA-Z0-9- ]{7,}"> </label>
+                <label class="top"> Business Name/Title* <input type="text" name="business-name" required> </label>
+                <label class="top"> Business Description <textarea name="description"></textarea> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="np-membership"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze-membership"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver-membership"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold-membership"> Gold Member</label>
+            </fieldset>
+            <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div class="contact">
